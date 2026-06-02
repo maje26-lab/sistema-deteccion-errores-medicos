@@ -1,0 +1,271 @@
+edad_paciente,genero_paciente,especialidad_medico,codigo_cie10,medicamento,dosis_diaria_mg,dias_tratamiento,tiempo_llenado_min,tiene_error
+47,F,Medicina General,E11,MED_Metformina,900,30,3.5,0
+59,M,Medicina General,E11,MED_Metformina,450,60,4.2,0
+26,F,Ginecologia,Z32,MED_Paracetamol,500,7,2.1,0
+34,F,Ginecologia,O20,MED_Paracetamol,550,3,5.0,0
+52,M,Cardiologia,I10,MED_Paracetamol,450,15,3.1,0
+59,M,Ginecologia,O20,MED_Metformina,500,3,4.5,1
+61,M,Ginecologia,Z32,MED_Paracetamol,500,7,3.8,1
+52,F,Medicina General,I10,MED_Metformina,850,30,3.8,1
+68,M,Cardiologia,I10,MED_Metformina,500,30,4.0,1
+45,F,Medicina General,E11,MED_Metformina,900,30,3.5,0
+62,M,Medicina General,E11,MED_Metformina,500,60,4.2,0
+26,F,Ginecologia,Z32,MED_Paracetamol,450,7,2.1,0
+36,F,Ginecologia,O20,MED_Paracetamol,500,3,5.0,0
+51,M,Cardiologia,I10,MED_Paracetamol,500,15,3.1,0
+59,M,Ginecologia,O20,MED_Metformina,500,3,4.5,1
+60,M,Ginecologia,Z32,MED_Paracetamol,550,7,3.8,1
+53,F,Medicina General,I10,MED_Metformina,800,30,3.8,1
+69,M,Cardiologia,I10,MED_Metformina,550,30,4.0,1
+46,F,Medicina General,E11,MED_Metformina,800,30,3.5,0
+60,M,Medicina General,E11,MED_Metformina,450,60,4.2,0
+30,F,Ginecologia,Z32,MED_Paracetamol,550,7,2.1,0
+36,F,Ginecologia,O20,MED_Paracetamol,450,3,5.0,0
+50,M,Cardiologia,I10,MED_Paracetamol,550,15,3.1,0
+56,M,Ginecologia,O20,MED_Metformina,500,3,4.5,1
+60,M,Ginecologia,Z32,MED_Paracetamol,500,7,3.8,1
+51,F,Medicina General,I10,MED_Metformina,850,30,3.8,1
+68,M,Cardiologia,I10,MED_Metformina,550,30,4.0,1
+46,F,Medicina General,E11,MED_Metformina,850,30,3.5,0
+62,M,Medicina General,E11,MED_Metformina,550,60,4.2,0
+29,F,Ginecologia,Z32,MED_Paracetamol,450,7,2.1,0
+33,F,Ginecologia,O20,MED_Paracetamol,550,3,5.0,0
+50,M,Cardiologia,I10,MED_Paracetamol,550,15,3.1,0
+60,M,Ginecologia,O20,MED_Metformina,500,3,4.5,1
+61,M,Ginecologia,Z32,MED_Paracetamol,450,7,3.8,1
+52,F,Medicina General,I10,MED_Metformina,800,30,3.8,1
+68,M,Cardiologia,I10,MED_Metformina,550,30,4.0,1
+45,F,Medicina General,E11,MED_Metformina,850,30,3.5,0
+58,M,Medicina General,E11,MED_Metformina,500,60,4.2,0
+28,F,Ginecologia,Z32,MED_Paracetamol,550,7,2.1,0
+32,F,Ginecologia,O20,MED_Paracetamol,500,3,5.0,0
+53,M,Cardiologia,I10,MED_Paracetamol,550,15,3.1,0
+58,M,Ginecologia,O20,MED_Metformina,500,3,4.5,1
+61,M,Ginecologia,Z32,MED_Paracetamol,450,7,3.8,1
+51,F,Medicina General,I10,MED_Metformina,850,30,3.8,1
+71,M,Cardiologia,I10,MED_Metformina,450,30,4.0,1
+45,F,Medicina General,E11,MED_Metformina,850,30,3.5,0
+62,M,Medicina General,E11,MED_Metformina,450,60,4.2,0
+28,F,Ginecologia,Z32,MED_Paracetamol,450,7,2.1,0
+34,F,Ginecologia,O20,MED_Paracetamol,500,3,5.0,0
+54,M,Cardiologia,I10,MED_Paracetamol,500,15,3.1,0
+59,M,Ginecologia,O20,MED_Metformina,500,3,4.5,1
+60,M,Ginecologia,Z32,MED_Paracetamol,500,7,3.8,1
+50,F,Medicina General,I10,MED_Metformina,900,30,3.8,1
+69,M,Cardiologia,I10,MED_Metformina,550,30,4.0,1
+46,F,Medicina General,E11,MED_Metformina,800,30,3.5,0
+62,M,Medicina General,E11,MED_Metformina,550,60,4.2,0
+26,F,Ginecologia,Z32,MED_Paracetamol,450,7,2.1,0
+32,F,Ginecologia,O20,MED_Paracetamol,450,3,5.0,0
+50,M,Cardiologia,I10,MED_Paracetamol,450,15,3.1,0
+58,M,Ginecologia,O20,MED_Metformina,500,3,4.5,1
+64,M,Ginecologia,Z32,MED_Paracetamol,500,7,3.8,1
+54,F,Medicina General,I10,MED_Metformina,800,30,3.8,1
+69,M,Cardiologia,I10,MED_Metformina,500,30,4.0,1
+44,F,Medicina General,E11,MED_Metformina,850,30,3.5,0
+60,M,Medicina General,E11,MED_Metformina,500,60,4.2,0
+30,F,Ginecologia,Z32,MED_Paracetamol,450,7,2.1,0
+33,F,Ginecologia,O20,MED_Paracetamol,500,3,5.0,0
+50,M,Cardiologia,I10,MED_Paracetamol,450,15,3.1,0
+60,M,Ginecologia,O20,MED_Metformina,500,3,4.5,1
+60,M,Ginecologia,Z32,MED_Paracetamol,550,7,3.8,1
+54,F,Medicina General,I10,MED_Metformina,800,30,3.8,1
+71,M,Cardiologia,I10,MED_Metformina,450,30,4.0,1
+47,F,Medicina General,E11,MED_Metformina,850,30,3.5,0
+58,M,Medicina General,E11,MED_Metformina,550,60,4.2,0
+28,F,Ginecologia,Z32,MED_Paracetamol,500,7,2.1,0
+32,F,Ginecologia,O20,MED_Paracetamol,500,3,5.0,0
+53,M,Cardiologia,I10,MED_Paracetamol,500,15,3.1,0
+57,M,Ginecologia,O20,MED_Metformina,450,3,4.5,1
+60,M,Ginecologia,Z32,MED_Paracetamol,550,7,3.8,1
+54,F,Medicina General,I10,MED_Metformina,800,30,3.8,1
+68,M,Cardiologia,I10,MED_Metformina,500,30,4.0,1
+47,F,Medicina General,E11,MED_Metformina,900,30,3.5,0
+58,M,Medicina General,E11,MED_Metformina,550,60,4.2,0
+29,F,Ginecologia,Z32,MED_Paracetamol,500,7,2.1,0
+36,F,Ginecologia,O20,MED_Paracetamol,500,3,5.0,0
+54,M,Cardiologia,I10,MED_Paracetamol,550,15,3.1,0
+56,M,Ginecologia,O20,MED_Metformina,500,3,4.5,1
+60,M,Ginecologia,Z32,MED_Paracetamol,550,7,3.8,1
+51,F,Medicina General,I10,MED_Metformina,900,30,3.8,1
+68,M,Cardiologia,I10,MED_Metformina,550,30,4.0,1
+43,F,Medicina General,E11,MED_Metformina,800,30,3.5,0
+58,M,Medicina General,E11,MED_Metformina,500,60,4.2,0
+27,F,Ginecologia,Z32,MED_Paracetamol,550,7,2.1,0
+34,F,Ginecologia,O20,MED_Paracetamol,500,3,5.0,0
+51,M,Cardiologia,I10,MED_Paracetamol,550,15,3.1,0
+56,M,Ginecologia,O20,MED_Metformina,550,3,4.5,1
+64,M,Ginecologia,Z32,MED_Paracetamol,500,7,3.8,1
+50,F,Medicina General,I10,MED_Metformina,800,30,3.8,1
+69,M,Cardiologia,I10,MED_Metformina,500,30,4.0,1
+46,F,Medicina General,E11,MED_Metformina,800,30,3.5,0
+58,M,Medicina General,E11,MED_Metformina,550,60,4.2,0
+28,F,Ginecologia,Z32,MED_Paracetamol,550,7,2.1,0
+34,F,Ginecologia,O20,MED_Paracetamol,550,3,5.0,0
+50,M,Cardiologia,I10,MED_Paracetamol,500,15,3.1,0
+60,M,Ginecologia,O20,MED_Metformina,450,3,4.5,1
+61,M,Ginecologia,Z32,MED_Paracetamol,500,7,3.8,1
+54,F,Medicina General,I10,MED_Metformina,800,30,3.8,1
+72,M,Cardiologia,I10,MED_Metformina,500,30,4.0,1
+46,F,Medicina General,E11,MED_Metformina,800,30,3.5,0
+61,M,Medicina General,E11,MED_Metformina,500,60,4.2,0
+28,F,Ginecologia,Z32,MED_Paracetamol,450,7,2.1,0
+32,F,Ginecologia,O20,MED_Paracetamol,450,3,5.0,0
+52,M,Cardiologia,I10,MED_Paracetamol,500,15,3.1,0
+58,M,Ginecologia,O20,MED_Metformina,500,3,4.5,1
+63,M,Ginecologia,Z32,MED_Paracetamol,450,7,3.8,1
+52,F,Medicina General,I10,MED_Metformina,800,30,3.8,1
+68,M,Cardiologia,I10,MED_Metformina,550,30,4.0,1
+47,F,Medicina General,E11,MED_Metformina,850,30,3.5,0
+61,M,Medicina General,E11,MED_Metformina,450,60,4.2,0
+28,F,Ginecologia,Z32,MED_Paracetamol,500,7,2.1,0
+36,F,Ginecologia,O20,MED_Paracetamol,500,3,5.0,0
+53,M,Cardiologia,I10,MED_Paracetamol,450,15,3.1,0
+60,M,Ginecologia,O20,MED_Metformina,550,3,4.5,1
+63,M,Ginecologia,Z32,MED_Paracetamol,500,7,3.8,1
+53,F,Medicina General,I10,MED_Metformina,900,30,3.8,1
+72,M,Cardiologia,I10,MED_Metformina,550,30,4.0,1
+43,F,Medicina General,E11,MED_Metformina,850,30,3.5,0
+62,M,Medicina General,E11,MED_Metformina,500,60,4.2,0
+27,F,Ginecologia,Z32,MED_Paracetamol,450,7,2.1,0
+32,F,Ginecologia,O20,MED_Paracetamol,450,3,5.0,0
+51,M,Cardiologia,I10,MED_Paracetamol,500,15,3.1,0
+56,M,Ginecologia,O20,MED_Metformina,550,3,4.5,1
+62,M,Ginecologia,Z32,MED_Paracetamol,550,7,3.8,1
+54,F,Medicina General,I10,MED_Metformina,900,30,3.8,1
+69,M,Cardiologia,I10,MED_Metformina,550,30,4.0,1
+46,F,Medicina General,E11,MED_Metformina,800,30,3.5,0
+58,M,Medicina General,E11,MED_Metformina,550,60,4.2,0
+26,F,Ginecologia,Z32,MED_Paracetamol,500,7,2.1,0
+34,F,Ginecologia,O20,MED_Paracetamol,450,3,5.0,0
+50,M,Cardiologia,I10,MED_Paracetamol,550,15,3.1,0
+60,M,Ginecologia,O20,MED_Metformina,500,3,4.5,1
+64,M,Ginecologia,Z32,MED_Paracetamol,500,7,3.8,1
+53,F,Medicina General,I10,MED_Metformina,850,30,3.8,1
+70,M,Cardiologia,I10,MED_Metformina,450,30,4.0,1
+47,F,Medicina General,E11,MED_Metformina,900,30,3.5,0
+62,M,Medicina General,E11,MED_Metformina,550,60,4.2,0
+29,F,Ginecologia,Z32,MED_Paracetamol,500,7,2.1,0
+34,F,Ginecologia,O20,MED_Paracetamol,450,3,5.0,0
+53,M,Cardiologia,I10,MED_Paracetamol,450,15,3.1,0
+58,M,Ginecologia,O20,MED_Metformina,450,3,4.5,1
+64,M,Ginecologia,Z32,MED_Paracetamol,550,7,3.8,1
+52,F,Medicina General,I10,MED_Metformina,800,30,3.8,1
+69,M,Cardiologia,I10,MED_Metformina,450,30,4.0,1
+46,F,Medicina General,E11,MED_Metformina,900,30,3.5,0
+59,M,Medicina General,E11,MED_Metformina,550,60,4.2,0
+26,F,Ginecologia,Z32,MED_Paracetamol,450,7,2.1,0
+34,F,Ginecologia,O20,MED_Paracetamol,500,3,5.0,0
+51,M,Cardiologia,I10,MED_Paracetamol,550,15,3.1,0
+59,M,Ginecologia,O20,MED_Metformina,450,3,4.5,1
+60,M,Ginecologia,Z32,MED_Paracetamol,450,7,3.8,1
+53,F,Medicina General,I10,MED_Metformina,850,30,3.8,1
+70,M,Cardiologia,I10,MED_Metformina,450,30,4.0,1
+46,F,Medicina General,E11,MED_Metformina,900,30,3.5,0
+60,M,Medicina General,E11,MED_Metformina,500,60,4.2,0
+29,F,Ginecologia,Z32,MED_Paracetamol,500,7,2.1,0
+34,F,Ginecologia,O20,MED_Paracetamol,550,3,5.0,0
+52,M,Cardiologia,I10,MED_Paracetamol,500,15,3.1,0
+57,M,Ginecologia,O20,MED_Metformina,450,3,4.5,1
+61,M,Ginecologia,Z32,MED_Paracetamol,550,7,3.8,1
+52,F,Medicina General,I10,MED_Metformina,800,30,3.8,1
+71,M,Cardiologia,I10,MED_Metformina,550,30,4.0,1
+47,F,Medicina General,E11,MED_Metformina,900,30,3.5,0
+60,M,Medicina General,E11,MED_Metformina,500,60,4.2,0
+30,F,Ginecologia,Z32,MED_Paracetamol,450,7,2.1,0
+34,F,Ginecologia,O20,MED_Paracetamol,550,3,5.0,0
+51,M,Cardiologia,I10,MED_Paracetamol,450,15,3.1,0
+56,M,Ginecologia,O20,MED_Metformina,500,3,4.5,1
+64,M,Ginecologia,Z32,MED_Paracetamol,550,7,3.8,1
+52,F,Medicina General,I10,MED_Metformina,800,30,3.8,1
+68,M,Cardiologia,I10,MED_Metformina,500,30,4.0,1
+44,F,Medicina General,E11,MED_Metformina,800,30,3.5,0
+62,M,Medicina General,E11,MED_Metformina,450,60,4.2,0
+30,F,Ginecologia,Z32,MED_Paracetamol,550,7,2.1,0
+33,F,Ginecologia,O20,MED_Paracetamol,450,3,5.0,0
+52,M,Cardiologia,I10,MED_Paracetamol,500,15,3.1,0
+60,M,Ginecologia,O20,MED_Metformina,500,3,4.5,1
+63,M,Ginecologia,Z32,MED_Paracetamol,500,7,3.8,1
+54,F,Medicina General,I10,MED_Metformina,800,30,3.8,1
+72,M,Cardiologia,I10,MED_Metformina,550,30,4.0,1
+45,F,Medicina General,E11,MED_Metformina,800,30,3.5,0
+60,M,Medicina General,E11,MED_Metformina,500,60,4.2,0
+28,F,Ginecologia,Z32,MED_Paracetamol,500,7,2.1,0
+34,F,Ginecologia,O20,MED_Paracetamol,550,3,5.0,0
+52,M,Cardiologia,I10,MED_Paracetamol,550,15,3.1,0
+58,M,Ginecologia,O20,MED_Metformina,450,3,4.5,1
+61,M,Ginecologia,Z32,MED_Paracetamol,500,7,3.8,1
+50,F,Medicina General,I10,MED_Metformina,800,30,3.8,1
+68,M,Cardiologia,I10,MED_Metformina,500,30,4.0,1
+46,F,Medicina General,E11,MED_Metformina,800,30,3.5,0
+61,M,Medicina General,E11,MED_Metformina,500,60,4.2,0
+30,F,Ginecologia,Z32,MED_Paracetamol,550,7,2.1,0
+36,F,Ginecologia,O20,MED_Paracetamol,550,3,5.0,0
+50,M,Cardiologia,I10,MED_Paracetamol,500,15,3.1,0
+58,M,Ginecologia,O20,MED_Metformina,450,3,4.5,1
+64,M,Ginecologia,Z32,MED_Paracetamol,500,7,3.8,1
+50,F,Medicina General,I10,MED_Metformina,800,30,3.8,1
+68,M,Cardiologia,I10,MED_Metformina,550,30,4.0,1
+43,F,Medicina General,E11,MED_Metformina,900,30,3.5,0
+58,M,Medicina General,E11,MED_Metformina,450,60,4.2,0
+28,F,Ginecologia,Z32,MED_Paracetamol,550,7,2.1,0
+32,F,Ginecologia,O20,MED_Paracetamol,450,3,5.0,0
+53,M,Cardiologia,I10,MED_Paracetamol,550,15,3.1,0
+56,M,Ginecologia,O20,MED_Metformina,500,3,4.5,1
+60,M,Ginecologia,Z32,MED_Paracetamol,500,7,3.8,1
+50,F,Medicina General,I10,MED_Metformina,850,30,3.8,1
+71,M,Cardiologia,I10,MED_Metformina,450,30,4.0,1
+46,F,Medicina General,E11,MED_Metformina,900,30,3.5,0
+58,M,Medicina General,E11,MED_Metformina,450,60,4.2,0
+28,F,Ginecologia,Z32,MED_Paracetamol,550,7,2.1,0
+32,F,Ginecologia,O20,MED_Paracetamol,450,3,5.0,0
+50,M,Cardiologia,I10,MED_Paracetamol,450,15,3.1,0
+57,M,Ginecologia,O20,MED_Metformina,450,3,4.5,1
+62,M,Ginecologia,Z32,MED_Paracetamol,550,7,3.8,1
+54,F,Medicina General,I10,MED_Metformina,850,30,3.8,1
+71,M,Cardiologia,I10,MED_Metformina,500,30,4.0,1
+45,F,Medicina General,E11,MED_Metformina,900,30,3.5,0
+62,M,Medicina General,E11,MED_Metformina,500,60,4.2,0
+26,F,Ginecologia,Z32,MED_Paracetamol,500,7,2.1,0
+36,F,Ginecologia,O20,MED_Paracetamol,450,3,5.0,0
+51,M,Cardiologia,I10,MED_Paracetamol,500,15,3.1,0
+56,M,Ginecologia,O20,MED_Metformina,500,3,4.5,1
+60,M,Ginecologia,Z32,MED_Paracetamol,550,7,3.8,1
+51,F,Medicina General,I10,MED_Metformina,850,30,3.8,1
+68,M,Cardiologia,I10,MED_Metformina,550,30,4.0,1
+44,F,Medicina General,E11,MED_Metformina,800,30,3.5,0
+60,M,Medicina General,E11,MED_Metformina,550,60,4.2,0
+30,F,Ginecologia,Z32,MED_Paracetamol,550,7,2.1,0
+35,F,Ginecologia,O20,MED_Paracetamol,550,3,5.0,0
+51,M,Cardiologia,I10,MED_Paracetamol,550,15,3.1,0
+59,M,Ginecologia,O20,MED_Metformina,500,3,4.5,1
+60,M,Ginecologia,Z32,MED_Paracetamol,550,7,3.8,1
+53,F,Medicina General,I10,MED_Metformina,900,30,3.8,1
+70,M,Cardiologia,I10,MED_Metformina,550,30,4.0,1
+46,F,Medicina General,E11,MED_Metformina,800,30,3.5,0
+59,M,Medicina General,E11,MED_Metformina,450,60,4.2,0
+29,F,Ginecologia,Z32,MED_Paracetamol,450,7,2.1,0
+32,F,Ginecologia,O20,MED_Paracetamol,450,3,5.0,0
+50,M,Cardiologia,I10,MED_Paracetamol,550,15,3.1,0
+56,M,Ginecologia,O20,MED_Metformina,500,3,4.5,1
+63,M,Ginecologia,Z32,MED_Paracetamol,450,7,3.8,1
+51,F,Medicina General,I10,MED_Metformina,800,30,3.8,1
+69,M,Cardiologia,I10,MED_Metformina,550,30,4.0,1
+47,F,Medicina General,E11,MED_Metformina,850,30,3.5,0
+59,M,Medicina General,E11,MED_Metformina,550,60,4.2,0
+27,F,Ginecologia,Z32,MED_Paracetamol,450,7,2.1,0
+34,F,Ginecologia,O20,MED_Paracetamol,550,3,5.0,0
+50,M,Cardiologia,I10,MED_Paracetamol,550,15,3.1,0
+59,M,Ginecologia,O20,MED_Metformina,500,3,4.5,1
+62,M,Ginecologia,Z32,MED_Paracetamol,500,7,3.8,1
+50,F,Medicina General,I10,MED_Metformina,850,30,3.8,1
+70,M,Cardiologia,I10,MED_Metformina,450,30,4.0,1
+45,F,Medicina General,E11,MED_Metformina,800,30,3.5,0
+59,M,Medicina General,E11,MED_Metformina,550,60,4.2,0
+27,F,Ginecologia,Z32,MED_Paracetamol,500,7,2.1,0
+32,F,Ginecologia,O20,MED_Paracetamol,450,3,5.0,0
+52,M,Cardiologia,I10,MED_Paracetamol,450,15,3.1,0
+58,M,Ginecologia,O20,MED_Metformina,500,3,4.5,1
+64,M,Ginecologia,Z32,MED_Paracetamol,450,7,3.8,1
+51,F,Medicina General,I10,MED_Metformina,900,30,3.8,1
+72,M,Cardiologia,I10,MED_Metformina,550,30,4.0,1
