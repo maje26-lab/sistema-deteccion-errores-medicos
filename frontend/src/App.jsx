@@ -23,7 +23,7 @@ export default function App() {
 
   const consumirBackendIA = async (valores) => {
     try {
-      const respuesta = await fetch("http://127.0.0.1:8000/predict", {
+      const respuesta = await fetch("TU_URL_DE_RENDER/predict", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -51,7 +51,7 @@ export default function App() {
       return {
         tiene_error: 1,
         probabilidad_error: 100,
-        mensaje: "ERROR DE CONEXIÓN: No se pudo establecer comunicación con el core de Machine Learning en el puerto 8000. Asegúrate de correr 'python api_ia.py'."
+        mensaje: "ERROR DE CONEXIÓN: No se pudo establecer comunicación con el core de Machine Learning. Verifica la URL del backend."
       };
     }
   };
@@ -172,11 +172,10 @@ export default function App() {
         </div>
       </div>
 
-      {/* CUERPO PRINCIPAL - DISTRIBUCIÓN HORIZONTAL COMPLETA (1.5fr / 1fr) */}
+      {/* CUERPO PRINCIPAL */}
       <div style={{ display: 'grid', gridTemplateColumns: '1.5fr 1fr', gap: '24px', alignItems: 'start', width: '100%', boxSizing: 'border-box' }}>
         
         <div style={{ display: 'flex', flexDirection: 'column', gap: '24px' }}>
-          {/* INYECTORES */}
           <div style={{ background: '#ffffff', padding: '20px', borderRadius: '12px', border: '1px solid #e2e8f0' }}>
             <div style={{ fontSize: '12px', fontWeight: '700', color: '#005588', marginBottom: '14px', textAlign: 'center' }}>🧪 INYECTOR DE CASOS CLÍNICOS PARA CONTROL DE CALIDAD</div>
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: '12px' }}>
@@ -186,10 +185,8 @@ export default function App() {
             </div>
           </div>
 
-          {/* FORMULARIO */}
           <div style={{ background: '#ffffff', padding: '28px', borderRadius: '12px', border: '1px solid #cbd5e1' }}>
             <h3 style={{ margin: '0 0 24px 0', fontSize: '18px', fontWeight: '700', color: '#005588', textAlign: 'center' }}>Ficha de Datos de la Atención</h3>
-            
             <form onSubmit={procesarAuditoria}>
               <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '20px', marginBottom: '20px' }}>
                 <div style={{ display: 'flex', flexDirection: 'column' }}>
@@ -204,7 +201,6 @@ export default function App() {
                   </select>
                 </div>
               </div>
-
               <div style={{ display: 'flex', flexDirection: 'column', marginBottom: '20px' }}>
                 <label style={{ fontSize: '11px', fontWeight: '700', color: '#4a5568', marginBottom: '6px' }}>ESPECIALIDAD MÉDICA EMISORA</label>
                 <select name="especialidad_medico" value={datos.especialidad_medico} onChange={manejarCambios} style={{ padding: '10px 14px', borderRadius: '6px', border: '1px solid #cbd5e1' }}>
@@ -216,7 +212,6 @@ export default function App() {
                   <option value="Oncologia">Oncología Médica</option>
                 </select>
               </div>
-
               <div style={{ display: 'flex', flexDirection: 'column', marginBottom: '20px' }}>
                 <label style={{ fontSize: '11px', fontWeight: '700', color: '#4a5568', marginBottom: '6px' }}>DIAGNÓSTICO CIE-10 ESTABLECIDO</label>
                 <select name="codigo_cie10" value={datos.codigo_cie10} onChange={manejarCambios} style={{ padding: '10px 14px', borderRadius: '6px', border: '1px solid #cbd5e1' }}>
@@ -229,7 +224,6 @@ export default function App() {
                   <option value="C50">Tumor Maligno de la Mama (C50)</option>
                 </select>
               </div>
-
               <div style={{ display: 'flex', flexDirection: 'column', marginBottom: '20px' }}>
                 <label style={{ fontSize: '11px', fontWeight: '700', color: '#4a5568', marginBottom: '6px' }}>FÁRMACO COBERTURADO POR FARMACIA</label>
                 <select name="medicamento" value={datos.medicamento} onChange={manejarCambios} style={{ padding: '10px 14px', borderRadius: '6px', border: '1px solid #cbd5e1' }}>
@@ -240,7 +234,6 @@ export default function App() {
                   <option value="MED_Tamoxifeno">Tamoxifeno Citrato (20mg)</option>
                 </select>
               </div>
-
               <div style={{ gridTemplateColumns: '1fr 1fr', gap: '20px', marginBottom: '28px', display: 'grid' }}>
                 <div style={{ display: 'flex', flexDirection: 'column' }}>
                   <label style={{ fontSize: '11px', fontWeight: '700', color: '#4a5568', marginBottom: '6px' }}>DOSIFICACIÓN DIARIA (MG)</label>
@@ -251,7 +244,6 @@ export default function App() {
                   <input type="number" name="dias_tratamiento" value={datos.dias_tratamiento} onChange={manejarCambios} required style={{ padding: '10px 14px', borderRadius: '6px', border: '1px solid #cbd5e1' }} />
                 </div>
               </div>
-
               <button type="submit" disabled={cargando} style={{ background: '#0079c1', color: '#ffffff', border: 'none', padding: '16px', borderRadius: '8px', fontSize: '14px', fontWeight: '700', width: '100%', cursor: 'pointer' }}>
                 {cargando ? '⚙️ CONSULTANDO CORE DE IA...' : '🔍 INTERROGAR COMPORTAMIENTO CLÍNICO'}
               </button>
@@ -259,7 +251,6 @@ export default function App() {
           </div>
         </div>
 
-        {/* COLUMNA DERECHA */}
         <div style={{ display: 'flex', flexDirection: 'column', gap: '24px' }}>
           <div style={{ background: '#ffffff', padding: '30px 24px', borderRadius: '12px', border: '1px solid #cbd5e1', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', minHeight: '380px' }}>
             {cargando && (
@@ -267,14 +258,12 @@ export default function App() {
                 <p style={{ margin: '10px 0 0 0', color: '#0079c1', fontWeight: '700' }}>Procesando en Red Neuronal / Random Forest...</p>
               </div>
             )}
-            
             {!resultado && !cargando && (
               <div style={{ textAlign: 'center' }}>
                 <h4 style={{ margin: '0', fontSize: '16px', fontWeight: '700', color: '#005588' }}>🛡️ Monitoreo en Espera</h4>
                 <p style={{ margin: '6px 0 0 0', color: '#718096', fontSize: '13px' }}>Use los inyectores superiores o llene el formulario para iniciar la auditoría real.</p>
               </div>
             )}
-
             {resultado && !cargando && (
               <div style={{ width: '100%', textAlign: 'center' }}>
                 <span style={{ fontSize: '12px', fontWeight: '800', color: '#a0aec0' }}>VERDICTO DEL MODELO DE IA</span>
@@ -286,8 +275,6 @@ export default function App() {
               </div>
             )}
           </div>
-
-          {/* HISTORIAL TRANSACCIONAL */}
           <div style={{ background: '#ffffff', padding: '20px', borderRadius: '12px', border: '1px solid #cbd5e1' }}>
             <h4 style={{ margin: '0 0 12px 0', fontSize: '14px', color: '#005588' }}>📋 Registro Auditado en Tiempo Real</h4>
             <div style={{ maxHeight: '150px', overflowY: 'auto', fontSize: '12px' }}>
@@ -304,7 +291,6 @@ export default function App() {
             </div>
           </div>
         </div>
-
       </div>
     </div>
   );
