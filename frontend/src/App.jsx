@@ -23,7 +23,7 @@ export default function App() {
 
   const consumirBackendIA = async (valores) => {
     try {
-      const respuesta = await fetch("TU_URL_DE_RENDER/predict", {
+      const respuesta = await fetch("https://sistema-deteccion-errores-medicos.onrender.com/predict", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
